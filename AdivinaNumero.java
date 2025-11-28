@@ -13,6 +13,13 @@ public class AdivinaNumero {
  if(intento < numeroSecreto) System.out.println("Demasiado bajo");
  else if(intento > numeroSecreto) System.out.println("Demasiado alto");
  else System.out.println("¡Correcto!");
+ // Suponiendo que numeroSecreto es el número generado:
+if (numeroSecreto % 2 == 0) {
+    System.out.println("Pista: el número secreto es PAR.");
+} else {
+    System.out.println("Pista: el número secreto es IMPAR.");
+}
+
  } while(intento != numeroSecreto);
  }
 }
