@@ -6,7 +6,7 @@ public class AdivinaNumero {
  Random rand = new Random();
  int numeroSecreto = rand.nextInt(100) + 1;
  int intento;
- System.out.println("¡Adivina el número entre 1 y 100!");
+ System.out.println("¡Bienvenido al juego de adivinanza!");
  do {
  System.out.print("Introduce tu intento: ");
  intento = sc.nextInt();
