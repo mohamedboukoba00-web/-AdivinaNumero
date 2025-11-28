@@ -10,8 +10,8 @@ public class AdivinaNumero {
  do {
  System.out.print("Introduce tu intento: ");
  intento = sc.nextInt();
- if(intento < numeroSecreto) System.out.println("Demasiado bajo");
- else if(intento > numeroSecreto) System.out.println("Demasiado alto");
+ if(intento < numeroSecreto) System.out.println(" bajo");
+ else if(intento > numeroSecreto) System.out.println(" alto");
  else System.out.println("¡Correcto!");
  // Suponiendo que numeroSecreto es el número generado:
 if (numeroSecreto % 2 == 0) {
